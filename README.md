@@ -1,6 +1,6 @@
 ﻿## Jasmine Snippet Pack for Visual Studio
 
-[![Build status](https://ci.appveyor.com/api/projects/status/qogg94i8nry0g0j7?svg=true)](https://ci.appveyor.com/project/madskristensen/javascriptsnippetpack)
+[![Build status](https://ci.appveyor.com/api/projects/status/ws4nxf1ypue4xwy3?svg=true)](https://ci.appveyor.com/project/madskristensen/jasminesnippetpack)
 
 Download this extension from the
 [VS Gallery](https://visualstudiogallery.msdn.microsoft.com/423eb4a3-215f-4a8f-9287-1512618ffda3)
