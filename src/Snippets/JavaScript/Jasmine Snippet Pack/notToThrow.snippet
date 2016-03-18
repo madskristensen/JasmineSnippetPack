@@ -1,0 +1,22 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>notThrow</Title>
+    <Shortcut>nt</Shortcut>
+    <Author>Mads Kristensen</Author>
+    <Description>Expects the argument not to throw</Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>arg</ID>
+        <Default>argument</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="JavaScript">
+      <![CDATA[expect($arg$).not.toThrow();$end$]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>

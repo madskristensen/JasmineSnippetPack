@@ -1,0 +1,28 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>callsArgsFor</Title>
+    <Shortcut>caf</Shortcut>
+    <Author>Mads Kristensen</Author>
+    <Description>returns the arguments passed to call number index</Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>spy</ID>
+        <ToolTip></ToolTip>
+        <Default>spy</Default>
+      </Literal>
+      <Literal>
+        <ID>number</ID>
+        <ToolTip></ToolTip>
+        <Default>call number</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="JavaScript">
+      <![CDATA[$spy$.calls.argsFor($number$)()$end$]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>
