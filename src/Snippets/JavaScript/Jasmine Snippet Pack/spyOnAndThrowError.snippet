@@ -1,9 +1,9 @@
 ﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <Header>
-    <Title>notToBeCloseTo</Title>
-    <Shortcut>nct</Shortcut>
+    <Title>spyOnAndThrowError</Title>
+    <Shortcut>ste</Shortcut>
     <Author>Mads Kristensen</Author>
-    <Description>Jasmine - Expects a value not to be close to another value</Description>
+    <Description>Jasmine - all calls to the spy will throw the specified value as an error</Description>
     <SnippetTypes>
       <SnippetType>Expansion</SnippetType>
     </SnippetTypes>
@@ -11,20 +11,20 @@
   <Snippet>
     <Declarations>
       <Literal>
-        <ID>expected</ID>
-        <Default>expected</Default>
+        <ID>object</ID>
+        <Default>object</Default>
       </Literal>
       <Literal>
-        <ID>number</ID>
-        <Default>number</Default>
+        <ID>method</ID>
+        <Default>method</Default>
       </Literal>
       <Literal>
-        <ID>delta</ID>
-        <Default>delta</Default>
+        <ID>error</ID>
+        <Default>error</Default>
       </Literal>
     </Declarations>
     <Code Language="JavaScript">
-      <![CDATA[expect($expected$).not.toBeCloseTo($number$, $delta$);$end$]]>
+      <![CDATA[spyOn($object$, $method$).and.throwError($error$);$end$]]>
     </Code>
   </Snippet>
 </CodeSnippet>

@@ -1,9 +1,9 @@
 ﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <Header>
-    <Title>createSpyObject</Title>
-    <Shortcut>cso</Shortcut>
+    <Title>toMatch</Title>
+    <Shortcut>tm</Shortcut>
     <Author>Mads Kristensen</Author>
-    <Description>Jasmine - a mock with multiple spies</Description>
+    <Description>Jasmine - Expects the first argument to match the second one</Description>
     <SnippetTypes>
       <SnippetType>Expansion</SnippetType>
     </SnippetTypes>
@@ -11,18 +11,16 @@
   <Snippet>
     <Declarations>
       <Literal>
-        <ID>spyname</ID>
-        <ToolTip></ToolTip>
-        <Default>spy name</Default>
+        <ID>expected</ID>
+        <Default>expected</Default>
       </Literal>
       <Literal>
-        <ID>methodname</ID>
-        <ToolTip></ToolTip>
-        <Default>method name</Default>
+        <ID>value</ID>
+        <Default>value</Default>
       </Literal>
     </Declarations>
     <Code Language="JavaScript">
-      <![CDATA[jasmine.createSpyObj('$spyname$', ['$methodname$']);$end$]]>
+      <![CDATA[expect($expected$).toMatch($value$);$end$]]>
     </Code>
   </Snippet>
 </CodeSnippet>

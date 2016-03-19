@@ -1,9 +1,9 @@
 ﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <Header>
-    <Title>objectContaining</Title>
-    <Shortcut>oc</Shortcut>
+    <Title>spyOnAndReturnValue</Title>
+    <Shortcut>srv</Shortcut>
     <Author>Mads Kristensen</Author>
-    <Description>Jasmine - when an expectation only cares about certain key/value pairs in the actual</Description>
+    <Description>Jasmine - all calls to the function will return a specific value</Description>
     <SnippetTypes>
       <SnippetType>Expansion</SnippetType>
     </SnippetTypes>
@@ -11,8 +11,12 @@
   <Snippet>
     <Declarations>
       <Literal>
-        <ID>key</ID>
-        <Default>key</Default>
+        <ID>object</ID>
+        <Default>object</Default>
+      </Literal>
+      <Literal>
+        <ID>method</ID>
+        <Default>method</Default>
       </Literal>
       <Literal>
         <ID>value</ID>
@@ -20,7 +24,7 @@
       </Literal>
     </Declarations>
     <Code Language="JavaScript">
-      <![CDATA[jasmine.objectContaining({'$key$': ''$value$});]]>
+      <![CDATA[spyOn($object$, $method$).and.returnValue($value$);$end$]]>
     </Code>
   </Snippet>
 </CodeSnippet>

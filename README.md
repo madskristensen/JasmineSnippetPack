@@ -10,8 +10,10 @@ or get the
 -----------------------------------------
 
 A snippet pack to make you more productive working with the
-Jasmine test library.
-Based on the awesome [sublime-jasmine](https://github.com/NicoSantangelo/sublime-jasmine) package.
+Jasmine test library. Based on the awesome
+[VS Code Jasmine snippets](https://github.com/xabikos/vscode-jasmine).
+
+![Snippets demo](art/animation.gif)
 
 This extension ships a bunch of useful code snippets for
 the JavaScript editor. Get an overview from the

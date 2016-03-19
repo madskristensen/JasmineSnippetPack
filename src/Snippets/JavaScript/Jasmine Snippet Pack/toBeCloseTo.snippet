@@ -1,9 +1,9 @@
 ﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <Header>
-    <Title>notToMatch</Title>
-    <Shortcut>nm</Shortcut>
+    <Title>toBeCloseTo</Title>
+    <Shortcut>tbct</Shortcut>
     <Author>Mads Kristensen</Author>
-    <Description>Jasmine - Expects the first argument not to match the second one</Description>
+    <Description>Jasmine - expects the first argument to be close to the second one base on the delta</Description>
     <SnippetTypes>
       <SnippetType>Expansion</SnippetType>
     </SnippetTypes>
@@ -15,12 +15,16 @@
         <Default>expected</Default>
       </Literal>
       <Literal>
-        <ID>value</ID>
-        <Default>value</Default>
+        <ID>number</ID>
+        <Default>number</Default>
+      </Literal>
+      <Literal>
+        <ID>delta</ID>
+        <Default>delta</Default>
       </Literal>
     </Declarations>
     <Code Language="JavaScript">
-      <![CDATA[expect($expected$).not.toMatch($value$);$end$]]>
+      <![CDATA[expect($expected$).toBeCloseTo($number$, $delta$);$end$]]>
     </Code>
   </Snippet>
 </CodeSnippet>

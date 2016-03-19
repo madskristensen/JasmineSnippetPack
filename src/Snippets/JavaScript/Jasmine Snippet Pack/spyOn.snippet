@@ -1,9 +1,9 @@
 ﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <Header>
-    <Title>createSpyObject</Title>
-    <Shortcut>cso</Shortcut>
+    <Title>spyOn</Title>
+    <Shortcut>so</Shortcut>
     <Author>Mads Kristensen</Author>
-    <Description>Jasmine - a mock with multiple spies</Description>
+    <Description>Jasmine - creates a spy for the specified method</Description>
     <SnippetTypes>
       <SnippetType>Expansion</SnippetType>
     </SnippetTypes>
@@ -11,18 +11,16 @@
   <Snippet>
     <Declarations>
       <Literal>
-        <ID>spyname</ID>
-        <ToolTip></ToolTip>
-        <Default>spy name</Default>
+        <ID>object</ID>
+        <Default>object</Default>
       </Literal>
       <Literal>
-        <ID>methodname</ID>
-        <ToolTip></ToolTip>
-        <Default>method name</Default>
+        <ID>method</ID>
+        <Default>method</Default>
       </Literal>
     </Declarations>
     <Code Language="JavaScript">
-      <![CDATA[jasmine.createSpyObj('$spyname$', ['$methodname$']);$end$]]>
+      <![CDATA[spyOn($object$, $method$);$end$]]>
     </Code>
   </Snippet>
 </CodeSnippet>

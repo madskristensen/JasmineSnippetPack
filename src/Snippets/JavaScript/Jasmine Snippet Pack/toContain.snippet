@@ -1,9 +1,9 @@
 ﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <Header>
-    <Title>createSpyObject</Title>
-    <Shortcut>cso</Shortcut>
+    <Title>toContain</Title>
+    <Shortcut>tc</Shortcut>
     <Author>Mads Kristensen</Author>
-    <Description>Jasmine - a mock with multiple spies</Description>
+    <Description>Jasmine - Expects the array does contain the argument</Description>
     <SnippetTypes>
       <SnippetType>Expansion</SnippetType>
     </SnippetTypes>
@@ -11,18 +11,16 @@
   <Snippet>
     <Declarations>
       <Literal>
-        <ID>spyname</ID>
-        <ToolTip></ToolTip>
-        <Default>spy name</Default>
+        <ID>array</ID>
+        <Default>array</Default>
       </Literal>
       <Literal>
-        <ID>methodname</ID>
-        <ToolTip></ToolTip>
-        <Default>method name</Default>
+        <ID>item</ID>
+        <Default>item</Default>
       </Literal>
     </Declarations>
     <Code Language="JavaScript">
-      <![CDATA[jasmine.createSpyObj('$spyname$', ['$methodname$']);$end$]]>
+      <![CDATA[expect($array$).toContain($item$);$end$]]>
     </Code>
   </Snippet>
 </CodeSnippet>

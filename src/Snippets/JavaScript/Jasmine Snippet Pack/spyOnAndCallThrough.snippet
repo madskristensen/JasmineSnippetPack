@@ -1,9 +1,9 @@
 ﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <Header>
-    <Title>notToBeNull</Title>
-    <Shortcut>nn</Shortcut>
+    <Title>spyOnAndCallThrough</Title>
+    <Shortcut>sct</Shortcut>
     <Author>Mads Kristensen</Author>
-    <Description>expects the argument not to be null</Description>
+    <Description>Jasmine - tracks all calls to it and delegates to the actual implementation</Description>
     <SnippetTypes>
       <SnippetType>Expansion</SnippetType>
     </SnippetTypes>
@@ -11,12 +11,16 @@
   <Snippet>
     <Declarations>
       <Literal>
-        <ID>arg</ID>
-        <Default>argument</Default>
+        <ID>object</ID>
+        <Default>object</Default>
+      </Literal>
+      <Literal>
+        <ID>method</ID>
+        <Default>method</Default>
       </Literal>
     </Declarations>
     <Code Language="JavaScript">
-      <![CDATA[expect($arg$).not.toBeNull();$end$]]>
+      <![CDATA[spyOn($object$, $method$).and.callThrough();$end$]]>
     </Code>
   </Snippet>
 </CodeSnippet>
