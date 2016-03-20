@@ -3,7 +3,7 @@
 [![Build status](https://ci.appveyor.com/api/projects/status/ws4nxf1ypue4xwy3?svg=true)](https://ci.appveyor.com/project/madskristensen/jasminesnippetpack)
 
 Download this extension from the
-[VS Gallery](https://visualstudiogallery.msdn.microsoft.com/423eb4a3-215f-4a8f-9287-1512618ffda3)
+[VS Gallery](https://visualstudiogallery.msdn.microsoft.com/5d11e28f-0f7c-4f6e-ae50-699fcd5a3500)
 or get the
 [nightly build](http://vsixgallery.com/extension/4b57f448-ba2e-4404-a0f7-ab1fac14daba/).
 
