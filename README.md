@@ -10,8 +10,9 @@ or get the
 -----------------------------------------
 
 A snippet pack to make you more productive working with the
-Jasmine test library. Based on the awesome
-[VS Code Jasmine snippets](https://github.com/xabikos/vscode-jasmine).
+[Jasmine][jasmine] test library. 
+
+This extension contains code snippets for [Jasmine][jasmine] test framework and is based on the awesome [sublime-jasmine][sublime-jusmine] package by [@NicoSantangelo][NicoSantangelo].
 
 ![Snippets demo](art/animation.gif)
 
@@ -22,75 +23,74 @@ the **Tools** top level menu.
 
 ![Snippet manager](art/snippet-manager.png)
 
-Here's the full list of all the snippets:
+## Snippets
+
+Below is a list of all snippets currently supported on this
+package and the triggers of each one. The **⇥** means the
+`TAB` key.
 
 ### Specs
-| Trigger      | Content |
-| -------:     | ------- |
-| `desc`      | describe method |
-| `xdesc`     | xdescribe method |
-| `fdesc`     | fdescribe method |
-| `it`        | it method |
-| `xit`       | xit method |
-| `fit`       | fit method |
-| `afterEach` | after each method |
-| `beforeEach`| before each method |
+- `describe`: desc⇥
+- `xdescribe`: xdesc⇥
+- `fdescribe`: fdesc⇥
+- `it`: it⇥
+- `xit`: xit⇥
+- `fit`: fit⇥
+- `afterEach`: ae⇥
+- `beforeEach`: be⇥
 
 ### Expectations
-| Trigger  | Content |
-| -------: | ------- |
-| exp 	   | expect |
-| tb      | expect().toBe |
-| tbct    | expect().toBeCloseTo |
-| tbd     | expect().toBeDefined |
-| tbf     | expect().toBeFalsy |
-| tbgt    | expect().toBeGreaterThan |
-| tblt    | expect().toBeLessThan |
-| tbn     | expect().toBeNul |
-| tbt     | expect().toBeTruthy |
-| tbu     | expect().toBeUndefined |
-| tc      | expect().toContain |
-| te      | expect().toEqual |
-| thbc    | expect().toHaveBeenCalled |
-| thbcw   | expect().toHaveBeenCalledWith |
-| tm      | expect().toMatch |
-| tt      | expect().toThrow |
-| tte     | expect().toThrowError |
-| nb      | expect().not.toBe |
-| nct     | expect().not.toBeCloseTo |
-| nd      | expect().not.toBeDefined |
-| nf      | expect().not.toBeFalsy |
-| ngt     | expect().not.toBeGreaterThan |
-| nlt     | expect().not.toBeLessThan |
-| nn      | expect().not.toBeNull |
-| nt      | expect().not.toBeTruthy |
-| nu      | expect().not.toBeUndefined |
-| nc      | expect().not.toContain |
-| ne      | expect().not.toEqual |
-| nm      | expect().not.toMatch |
-| nt      | expect().not.toThrow |
-| any     | jasmine.any |
-| oc      | jasmine.objectContaining |
+- `expect`: exp⇥
+- `expect().toBe`: tb⇥
+- `expect().toBeCloseTo`: tbct⇥
+- `expect().toBeDefined`: tbd⇥
+- `expect().toBeFalsy`: tbf⇥
+- `expect().toBeGreaterThan`: tbgt⇥
+- `expect().toBeLessThan`: tblt⇥
+- `expect().toBeNull`: tbn⇥
+- `expect().toBeTruthy`: tbt⇥
+- `expect().toBeUndefined`: tbu⇥
+- `expect().toContain`: tc⇥
+- `expect().toEqual`: te⇥
+- `expect().toHaveBeenCalled`: thbc⇥
+- `expect().toHaveBeenCalledWith`: thbcw⇥
+- `expect().toMatch`: tm⇥
+- `expect().toThrow`: tt⇥
+- `expect().toThrowError`: tte⇥
+- `expect().not.toBe`: nb⇥
+- `expect().not.toBeCloseTo`: nct⇥
+- `expect().not.toBeDefined`: nd⇥
+- `expect().not.toBeFalsy`: nf⇥
+- `expect().not.toBeGreaterThan`: ngt⇥
+- `expect().not.toBeLessThan`: nlt⇥
+- `expect().not.toBeNull`: nn⇥
+- `expect().not.toBeTruthy`: nt⇥
+- `expect().not.toBeUndefined`: nu⇥
+- `expect().not.toContain`: nc⇥
+- `expect().not.toEqual`: ne⇥
+- `expect().not.toMatch`: nm⇥
+- `expect().not.toThrow`: nt⇥
+- `jasmine.any`: any⇥
+- `jasmine.objectContaining`: oc⇥
 
 ### Spies
-| Trigger  | Content |
-| -------: | ------- |
-|so       | spyOn |
-|sct      | spyOn.and.callThrough |
-|scf      | spyOn.and.callFake |
-|srv      | spyOn.and.returnValue |
-|ss       | spyOn.and.stub |
-|ste      | spyOn.and.throwError |
-|ca       | spy.calls.all |
-|caa      | spy.calls.allArgs |
-|ca       | spy.calls.any |
-|caf      | spy.calls.argsFor |
-|cc       | spy.calls.count |
-|cf       | spy.calls.first |
-|cmr      | spy.calls.mostRecent |
-|cr       | spy.calls.reset |
-|cs       | createSpy |
-|cso      | createSpyObj |
+- `spyOn`: so⇥
+- `spyOn.and.callThrough`: sct⇥
+- `spyOn.and.callFake`: scf⇥
+- `spyOn.and.returnValue`: srv⇥
+- `spyOn.and.stub`: ss⇥
+- `spyOn.and.throwError`: ste⇥
+- `spy.calls.all`: ca⇥
+- `spy.calls.allArgs`: caa⇥
+- `spy.calls.any`: ca⇥
+- `spy.calls.argsFor`: caf⇥
+- `spy.calls.count`: cc⇥
+- `spy.calls.first`: cf⇥
+- `spy.calls.mostRecent`: cmr⇥
+- `spy.calls.reset`: cr⇥
+- `createSpy`: cs⇥
+- `createSpyObj`: cso⇥
+
 
 ## Contribute
 Check out the [contribution guidelines](.github/CONTRIBUTING.md)
@@ -104,3 +104,7 @@ used by this project.
 
 ## License
 [Apache 2.0](LICENSE)
+
+[jasmine]: http://jasmine.github.io
+[sublime-jusmine]: https://github.com/NicoSantangelo/sublime-jasmine
+[NicoSantangelo]: https://github.com/NicoSantangelo
