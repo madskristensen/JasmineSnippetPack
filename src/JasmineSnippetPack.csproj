@@ -54,172 +54,172 @@
       <Link>Resources\LICENSE</Link>
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\afteEach.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\afteEach.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\beforeEach.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\beforeEach.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\callsAll.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\callsAll.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\callsAllArgs.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\callsAllArgs.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\callsAny.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\callsAny.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\callsArgsFor.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\callsArgsFor.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\callsCount.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\callsCount.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\callsFirst.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\callsFirst.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\callsMostRecent.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\callsMostRecent.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\callsReset.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\callsReset.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\createSpy.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\createSpy.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\createSpyObject.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\createSpyObject.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\describe.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\describe.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\expect.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\expect.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\focusDescribe.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\focusDescribe.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\focusedIt.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\focusedIt.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\it.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\it.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\any.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\any.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\objectContaining.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\objectContaining.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\notToBe.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\notToBe.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\notToBeCloseTo.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\notToBeCloseTo.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\notToBeDefined.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\notToBeDefined.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\notToBeFalsy.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\notToBeFalsy.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\notToBeGreaterThan.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\notToBeGreaterThan.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\notToBeLessThan.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\notToBeLessThan.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\notToThrow.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\notToThrow.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\notToBeTruthy.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\notToBeTruthy.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\notToBeUndefined.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\notToBeUndefined.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\notToContain.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\notToContain.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\notToEqual.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\notToEqual.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\spyOnAndCallFake.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\spyOnAndCallFake.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\notToBeNull.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\notToBeNull.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\notToMatch.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\notToMatch.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\spyOnAndCallThrough.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\spyOnAndCallThrough.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\spyOnAndCallReturnValue.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\spyOnAndCallReturnValue.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\spyOnAndStub.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\spyOnAndStub.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\spyOnAndThrowError.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\spyOnAndThrowError.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\spyOn.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\spyOn.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\toBe.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\toBe.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\toBeCloseTo.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\toBeCloseTo.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\toBeDefined.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\toBeDefined.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\toBeFalsy.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\toBeFalsy.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\toBeGreaterThan.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\toBeGreaterThan.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\toBeLessThan.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\toBeLessThan.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\toBeNull.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\toBeNull.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\toBeTruthy.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\toBeTruthy.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\toBeUndefined.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\toBeUndefined.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\toContain.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\toContain.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\toEqual.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\toEqual.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\toHaveBeenCalled.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\toHaveBeenCalled.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\toHaveBeenCalledWith.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\toHaveBeenCalledWith.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\toMatch.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\toMatch.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\toThrow.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\toThrow.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\toThrowError.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\toThrowError.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\xDescribe.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\xDescribe.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Snippets\JavaScript\Jasmine Snippet Pack\xIt.snippet">
+    <Content Include="Snippets\Jasmine Snippet Pack\xIt.snippet">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <None Include="source.extension.vsixmanifest">
