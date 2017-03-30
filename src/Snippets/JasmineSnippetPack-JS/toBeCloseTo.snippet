@@ -1,0 +1,30 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>toBeCloseTo</Title>
+    <Shortcut>tbct</Shortcut>
+    <Author>Mads Kristensen</Author>
+    <Description>Jasmine - expects the first argument to be close to the second one base on the delta</Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>expected</ID>
+        <Default>expected</Default>
+      </Literal>
+      <Literal>
+        <ID>number</ID>
+        <Default>number</Default>
+      </Literal>
+      <Literal>
+        <ID>delta</ID>
+        <Default>delta</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="JavaScript">
+      <![CDATA[expect($expected$).toBeCloseTo($number$, $delta$);$end$]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>
