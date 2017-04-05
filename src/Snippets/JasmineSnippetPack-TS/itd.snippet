@@ -1,0 +1,26 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>itd</Title>
+    <Shortcut>itd</Shortcut>
+    <Author>Kevin Logan - @aligneddev</Author>
+    <Description>Jasmine - creates an asynchronous test method</Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>name</ID>
+        <ToolTip></ToolTip>
+        <Default>should behave...</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="JavaScript">
+      <![CDATA[it('$name$', (done) => {
+        done();
+  $end$
+});]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>
