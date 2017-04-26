@@ -1,8 +1,12 @@
 ﻿
 ; VS 2012-2015
 [$RootKey$\Languages\CodeExpansions\JavaScript\Paths]
-"Snippets"="$PackageFolder$\JasmineSnippetPack"
+"Snippets"="$PackageFolder$\JasmineSnippetPack-JS"
+[$RootKey$\Languages\CodeExpansions\TypeScript\Paths]
+"Snippets"="$PackageFolder$\JasmineSnippetPack-TS"
 
 ; VS 2017
+[$RootKey$\Languages\CodeExpansions\JavaScript\Paths]
+"Snippets"="$PackageFolder$\JasmineSnippetPack-JS"
 [$RootKey$\Languages\CodeExpansions\TypeScript\Paths]
-"Snippets"="$PackageFolder$\JasmineSnippetPack"
+"Snippets"="$PackageFolder$\JasmineSnippetPack-TS"

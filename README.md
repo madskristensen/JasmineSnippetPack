@@ -34,6 +34,7 @@ package and the triggers of each one. The **⇥** means the
 - `xdescribe`: xdesc⇥
 - `fdescribe`: fdesc⇥
 - `it`: it⇥
+- `itd`: itd⇥
 - `xit`: xit⇥
 - `fit`: fit⇥
 - `afterEach`: ae⇥
