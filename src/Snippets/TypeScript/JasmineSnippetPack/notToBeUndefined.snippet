@@ -1,9 +1,9 @@
 ﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <Header>
-    <Title>xIt</Title>
-    <Shortcut>xit</Shortcut>
+    <Title>notToBeUndefined</Title>
+    <Shortcut>nu</Shortcut>
     <Author>Mads Kristensen</Author>
-    <Description>Jasmine - pending specs do not run, but their names will show up in the results as pending</Description>
+    <Description>Jasmine - expects the argument not to be undefined</Description>
     <SnippetTypes>
       <SnippetType>Expansion</SnippetType>
     </SnippetTypes>
@@ -11,15 +11,12 @@
   <Snippet>
     <Declarations>
       <Literal>
-        <ID>name</ID>
-        <ToolTip></ToolTip>
-        <Default>should behave...</Default>
+        <ID>arg</ID>
+        <Default>argument</Default>
       </Literal>
     </Declarations>
-    <Code Language="JavaScript">
-      <![CDATA[xit('$name$', () => {
-  $end$
-});]]>
+    <Code Language="TypeScript">
+      <![CDATA[expect($arg$).not.toBeUndefined();$end$]]>
     </Code>
   </Snippet>
 </CodeSnippet>

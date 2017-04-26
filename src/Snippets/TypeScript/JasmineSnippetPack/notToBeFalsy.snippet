@@ -1,9 +1,9 @@
 ﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <Header>
-    <Title>focusedIt</Title>
-    <Shortcut>fit</Shortcut>
+    <Title>notToBeFalsy</Title>
+    <Shortcut>nf</Shortcut>
     <Author>Mads Kristensen</Author>
-    <Description>Jasmine - focused it</Description>
+    <Description>Jasmine - Expects the argument not to be false</Description>
     <SnippetTypes>
       <SnippetType>Expansion</SnippetType>
     </SnippetTypes>
@@ -11,15 +11,12 @@
   <Snippet>
     <Declarations>
       <Literal>
-        <ID>name</ID>
-        <ToolTip></ToolTip>
-        <Default>should behave...</Default>
+        <ID>arg</ID>
+        <Default>argument</Default>
       </Literal>
     </Declarations>
-    <Code Language="JavaScript">
-      <![CDATA[fit('$name$', () => {
-  $end$
-});]]>
+    <Code Language="TypeScript">
+      <![CDATA[expect($arg$).not.toBeFalsy();$end$]]>
     </Code>
   </Snippet>
 </CodeSnippet>

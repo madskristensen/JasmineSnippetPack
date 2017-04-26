@@ -1,9 +1,9 @@
 ﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <Header>
-    <Title>itd</Title>
-    <Shortcut>itd</Shortcut>
-    <Author>Kevin Logan - @aligneddev</Author>
-    <Description>Jasmine - creates an asynchronous test method</Description>
+    <Title>callsCount</Title>
+    <Shortcut>cc</Shortcut>
+    <Author>Mads Kristensen</Author>
+    <Description>Jasmine - returns the number of times the spy was called</Description>
     <SnippetTypes>
       <SnippetType>Expansion</SnippetType>
     </SnippetTypes>
@@ -11,16 +11,13 @@
   <Snippet>
     <Declarations>
       <Literal>
-        <ID>name</ID>
+        <ID>spy</ID>
         <ToolTip></ToolTip>
-        <Default>should behave...</Default>
+        <Default>spy</Default>
       </Literal>
     </Declarations>
-    <Code Language="JavaScript">
-      <![CDATA[it('$name$', (done) => {
-        done();
-  $end$
-});]]>
+    <Code Language="TypeScript">
+      <![CDATA[$spy$.calls.count()$end$]]>
     </Code>
   </Snippet>
 </CodeSnippet>
