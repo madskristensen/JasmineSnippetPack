@@ -1,9 +1,9 @@
 ﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <Header>
-    <Title>createSpy</Title>
-    <Shortcut>cs</Shortcut>
+    <Title>toThrow</Title>
+    <Shortcut>tt</Shortcut>
     <Author>Mads Kristensen</Author>
-    <Description>Jasmine - creates a "bare" spy</Description>
+    <Description>Jasmine - expects that the specified method will throw</Description>
     <SnippetTypes>
       <SnippetType>Expansion</SnippetType>
     </SnippetTypes>
@@ -11,13 +11,12 @@
   <Snippet>
     <Declarations>
       <Literal>
-        <ID>name</ID>
-        <ToolTip></ToolTip>
-        <Default>name</Default>
+        <ID>arg</ID>
+        <Default>argument</Default>
       </Literal>
     </Declarations>
-    <Code Language="JavaScript">
-      <![CDATA[jasmine.createSpy('$name$');$end$]]>
+    <Code Language="TypeScript">
+      <![CDATA[expect($arg$).toThrow();$end$]]>
     </Code>
   </Snippet>
 </CodeSnippet>

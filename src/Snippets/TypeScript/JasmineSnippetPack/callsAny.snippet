@@ -1,9 +1,9 @@
 ﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <Header>
-    <Title>describe</Title>
-    <Shortcut>desc</Shortcut>
+    <Title>callsAny</Title>
+    <Shortcut>ca</Shortcut>
     <Author>Mads Kristensen</Author>
-    <Description>Jasmine - creates a suite of tests</Description>
+    <Description>Jasmine - returns false if the spy has not been called at all, and then true once at least one call happens</Description>
     <SnippetTypes>
       <SnippetType>Expansion</SnippetType>
     </SnippetTypes>
@@ -11,15 +11,13 @@
   <Snippet>
     <Declarations>
       <Literal>
-        <ID>name</ID>
+        <ID>spy</ID>
         <ToolTip></ToolTip>
-        <Default>name of the group</Default>
+        <Default>spy</Default>
       </Literal>
     </Declarations>
-    <Code Language="JavaScript">
-      <![CDATA[describe('$name$', () => {
-  $end$
-});]]>
+    <Code Language="TypeScript">
+      <![CDATA[$spy$.calls.any()$end$]]>
     </Code>
   </Snippet>
 </CodeSnippet>

@@ -1,9 +1,9 @@
 ﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <Header>
-    <Title>xDescribe</Title>
-    <Shortcut>xdesc</Shortcut>
+    <Title>callsAll</Title>
+    <Shortcut>ca</Shortcut>
     <Author>Mads Kristensen</Author>
-    <Description>Jasmine - these suites and any specs inside them are skipped when run and thus their results will not appear in the results</Description>
+    <Description>Jasmine - returns the context (the this) and arguments passed all calls</Description>
     <SnippetTypes>
       <SnippetType>Expansion</SnippetType>
     </SnippetTypes>
@@ -11,15 +11,13 @@
   <Snippet>
     <Declarations>
       <Literal>
-        <ID>name</ID>
+        <ID>spy</ID>
         <ToolTip></ToolTip>
-        <Default>name of the group</Default>
+        <Default>spy</Default>
       </Literal>
     </Declarations>
-    <Code Language="JavaScript">
-      <![CDATA[xdescribe('$name$', () => {
-  $end$
-});]]>
+    <Code Language="TypeScript">
+      <![CDATA[$spy$.calls.all()$end$]]>
     </Code>
   </Snippet>
 </CodeSnippet>

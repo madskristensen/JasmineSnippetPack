@@ -1,9 +1,9 @@
 ﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
   <Header>
-    <Title>focusDescribe</Title>
-    <Shortcut>fdesc</Shortcut>
+    <Title>toBeFalsy</Title>
+    <Shortcut>tbf</Shortcut>
     <Author>Mads Kristensen</Author>
-    <Description>Jasmine - focused describe</Description>
+    <Description>Jasmine - Expects the argument to be false</Description>
     <SnippetTypes>
       <SnippetType>Expansion</SnippetType>
     </SnippetTypes>
@@ -11,15 +11,12 @@
   <Snippet>
     <Declarations>
       <Literal>
-        <ID>name</ID>
-        <ToolTip></ToolTip>
-        <Default>name of the group</Default>
+        <ID>arg</ID>
+        <Default>argument</Default>
       </Literal>
     </Declarations>
-    <Code Language="JavaScript">
-      <![CDATA[fdescribe('$name$', () => {
-  $end$
-});]]>
+    <Code Language="TypeScript">
+      <![CDATA[expect($arg$).toBeFalsy();$end$]]>
     </Code>
   </Snippet>
 </CodeSnippet>

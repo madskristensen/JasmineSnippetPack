@@ -1,0 +1,26 @@
+﻿<CodeSnippet Format="1.1.0" xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <Header>
+    <Title>spyOnAndStub</Title>
+    <Shortcut>ss</Shortcut>
+    <Author>Mads Kristensen</Author>
+    <Description>Jasmine - The original stubbing behavior is returned at any time</Description>
+    <SnippetTypes>
+      <SnippetType>Expansion</SnippetType>
+    </SnippetTypes>
+  </Header>
+  <Snippet>
+    <Declarations>
+      <Literal>
+        <ID>object</ID>
+        <Default>object</Default>
+      </Literal>
+      <Literal>
+        <ID>method</ID>
+        <Default>method</Default>
+      </Literal>
+    </Declarations>
+    <Code Language="TypeScript">
+      <![CDATA[spyOn($object$, $method$).and.stub();$end$]]>
+    </Code>
+  </Snippet>
+</CodeSnippet>
